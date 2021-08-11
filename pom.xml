@@ -120,20 +120,6 @@
         <groupId>net.sourceforge.pmd</groupId>
         <artifactId>pmd-java</artifactId>
         <version>${pmd.version}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>com.beust</groupId>
-            <artifactId>jcommander</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-          </exclusion>
-          <exclusion>
-            <groupId>org.antlr</groupId>
-            <artifactId>antlr4-runtime</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
     </dependencies>
   </dependencyManagement>
